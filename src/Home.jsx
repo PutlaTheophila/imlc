@@ -601,9 +601,9 @@ const Home = () => {
         transition={{ type: "spring", stiffness: 200 }}
         className="inline-block mb-6"
       >
-        <div className="px-6 py-3 bg-gradient-to-r from-[#1f2a5a] to-[#606eb4] rounded-full text-white font-bold text-xs uppercase tracking-wider shadow-lg font-['Atkinson_Hyperlegible']">
+        {/* <div className="px-6 py-3 bg-gradient-to-r from-[#1f2a5a] to-[#606eb4] rounded-full text-white font-bold text-xs uppercase tracking-wider shadow-lg font-['Atkinson_Hyperlegible']">
           The Minds Behind Our Mission
-        </div>
+        </div> */}
       </motion.div>
 
       <h3
