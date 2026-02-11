@@ -926,7 +926,6 @@ const Home = () => {
       {/* Left Column */}
       <div className="space-y-6 max-w-md">
         <div className="space-y-3">
- */}
           
           <p 
             style={{ fontFamily: "'Atkinson Hyperlegible', sans-serif" }}
