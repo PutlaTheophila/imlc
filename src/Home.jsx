@@ -610,7 +610,7 @@ const Home = () => {
         style={{ fontFamily: "'Poppins', sans-serif" }}
         className="font-bold text-[36px] md:text-[52px] mb-4 tracking-tight"
       >
-        <span className="bg-gradient-to-r from-[#1f2a5a] via-[#606eb4] to-[#6bafc0] bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r from-[#1f2a5a] via-[#1f2a5a] to-[#1f2a5a] bg-clip-text text-transparent">
           Our Team
         </span>
       </h3>
