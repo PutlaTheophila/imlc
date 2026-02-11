@@ -313,36 +313,71 @@ const Home = () => {
   <div className="absolute inset-0 opacity-[0.03] pointer-events-none" 
        style={{ backgroundImage: `radial-gradient(#ffffff 1px, transparent 1px)`, backgroundSize: '40px 40px' }} />
 
-  <div className="container mx-auto relative z-10">
-    <div className="max-w-6xl mx-auto">
+  <div className="container mx-auto relative z-10 min-h-[80vh] flex items-center">
+    <div className="max-w-6xl mx-auto flex flex-col justify-between min-h-[70vh] w-full">
       
       {/* Subheading: Poppins Bold / Title Case (Change #2) */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="inline-flex items-center space-x-3 bg-white/5 backdrop-blur-2xl border border-white/10 px-6 py-2.5 rounded-full mb-12"
+        className="inline-flex items-center space-x-3 bg-white/5 backdrop-blur-2xl border border-white/10 px-6 py-3 rounded-full mb-12 self-start"
       >
-        <div className="flex -space-x-2">
+        <div className="flex -space-x-2 items-center">
           {[1, 2, 3].map((i) => (
             <div key={i} className="w-6 h-6 rounded-full border-2 border-[#1f2a5a] bg-[#88cca4] flex items-center justify-center">
               <Star size={10} className="text-[#1f2a5a]" />
             </div>
           ))}
         </div>
-        <span className="text-[11px] font-bold tracking-[0.4em] text-[#88cca4] font-['Poppins']">
+        <span className="text-[11px] font-bold tracking-[0.2em] text-[#88cca4] font-['Poppins']">
           We are a SINE IIT Bombay incubated startup
         </span>
       </motion.div>
       
       {/* Main Heading: Poppins Bold / Title Case (Change #2) */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-        <h1 className="font-['Poppins'] font-bold text-[56px] md:text-[80px] lg:text-[110px] leading-[0.9] mb-12 tracking-tight text-white uppercase italic">
-          <motion.span initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 0.2 }} className="block">Where</motion.span>
-          <motion.span initial={{ x: 20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 0.4 }} className="block text-transparent bg-clip-text bg-gradient-to-r from-[#88cca4] via-[#6bafc0] to-[#88cca4] bg-[length:200%_auto] animate-gradient-x">Neurodivergent</motion.span>
-          <motion.span initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.6 }} className="block">Minds Flourish.</motion.span>
+        <h1 className="font-['Poppins'] font-bold text-[72px] md:text-[45px] lg:text-[48px] leading-[1.24] mb-12 tracking-tight text-white">
+          
+          <motion.span 
+            initial={{ x: -20, opacity: 0 }} 
+            animate={{ x: 0, opacity: 1 }} 
+            transition={{ delay: 0.2 }} 
+            className="block mb-4"
+          >
+            We are an organisation for
+          </motion.span>
+
+          <motion.span 
+            initial={{ x: 20, opacity: 0 }} 
+            animate={{ x: 0, opacity: 1 }} 
+            transition={{ delay: 0.4 }} 
+            className="block text-transparent bg-clip-text bg-gradient-to-r from-[#88cca4] via-[#6bafc0] to-[#88cca4] bg-[length:200%_auto] animate-gradient-x"
+          >
+            Neurodivergent Children
+          </motion.span>
+
+          <motion.span 
+            initial={{ y: 20, opacity: 0 }} 
+            animate={{ y: 0, opacity: 1 }} 
+            transition={{ delay: 0.6 }} 
+            className="block"
+          >
+            to learn, grow, and flourish
+          </motion.span>
+
+          <motion.span 
+            initial={{ y: 20, opacity: 0 }} 
+            animate={{ y: 0, opacity: 1 }} 
+            transition={{ delay: 0.8 }} 
+            className="block text-[#88cca4]"
+          >
+            in ways that work for them.
+          </motion.span>
+
         </h1>
       </motion.div>
+
       
       {/* Body Text: Atkinson Hyperlegible (Change #3) */}
       <motion.p 
@@ -631,7 +666,7 @@ const Home = () => {
                   <img
                     src={member.img}
                     alt={member.name}
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 relative z-10"
+                    className="w-full h-full object-cover transition-all duration-500 relative z-10"
                   />
                 </div>
 
@@ -716,7 +751,7 @@ const Home = () => {
                 <img
                   src={member.img}
                   alt={member.name}
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 relative z-10"
+                  className="w-full h-full object-cover transition-all duration-500 relative z-10"
                 />
               </motion.div>
 
