@@ -397,7 +397,7 @@ const Home = () => {
         style={{ fontFamily: "'Atkinson Hyperlegible', sans-serif" }}
         className="text-gray-400 font-bold italic text-lg lg:max-w-xs border-l-4 border-[#88cca4] pl-6"
       >
-        After School programs, summer/winter break camps.
+        After school programs, summer/winter break camps.
       </p>
     </div>
 
@@ -412,7 +412,7 @@ const Home = () => {
         },
         { 
           title: "Affinity Pathways", 
-          desc: "Personalised learning journeys built around what draws each learner in.", 
+          desc: "personalized learning journeys built around what draws each learner in.", 
           icon: Star, 
           color: "bg-[#606eb4]" 
         },
