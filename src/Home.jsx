@@ -345,7 +345,7 @@ const Home = () => {
             transition={{ delay: 0.2 }} 
             className="block mb-4"
           >
-            We are an organisation for
+            Nurturing Possibilities
           </motion.span>
 
           <motion.span 
@@ -354,9 +354,9 @@ const Home = () => {
             transition={{ delay: 0.4 }} 
             className="block text-transparent bg-clip-text bg-gradient-to-r from-[#88cca4] via-[#6bafc0] to-[#88cca4] bg-[length:200%_auto] animate-gradient-x"
           >
-            Neurodivergent Children
+            creating learning environments where neurodivergent children thrive
           </motion.span>
-
+{/* 
           <motion.span 
             initial={{ y: 20, opacity: 0 }} 
             animate={{ y: 0, opacity: 1 }} 
@@ -373,7 +373,7 @@ const Home = () => {
             className="block text-[#88cca4]"
           >
             in ways that work for them.
-          </motion.span>
+          </motion.span> */}
 
         </h1>
       </motion.div>
@@ -386,7 +386,7 @@ const Home = () => {
         transition={{ delay: 0.8, duration: 0.8 }}
         className="text-[20px] md:text-[26px] text-white/60 mb-16 leading-relaxed max-w-4xl font-['Atkinson_Hyperlegible'] font-medium"
       >
-        <span className="text-white border-b-2 border-[#88cca4]/30 font-bold">"Nurturing Possibilities"</span>- creating learning environments where neurodivergent children thrive.
+    We are an organisation for neurodivergent children to learn, grow, and flourish in ways that work for them
       </motion.p>
     </div>
   </div>
@@ -960,7 +960,7 @@ const Home = () => {
       
       {/* Left Column */}
       <div className="space-y-6 max-w-md">
-        <div className="space-y-3">
+        {/* <div className="space-y-3">
           
           <p 
             style={{ fontFamily: "'Atkinson Hyperlegible', sans-serif" }}
@@ -969,7 +969,7 @@ const Home = () => {
             <span className="w-1.5 h-1.5 rounded-full bg-[#88cca4]"></span>
             We are a SINE IIT Bombay incubated startup
           </p>
-        </div>
+        </div> */}
 
         <div className="space-y-2">
           <p 
