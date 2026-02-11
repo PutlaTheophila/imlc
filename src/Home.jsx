@@ -919,79 +919,73 @@ const Home = () => {
 
 
       {/* FOOTER */}
-<footer className="relative bg-white py-20 px-6 border-t border-gray-100">
+<footer className="relative bg-white py-10 px-6 border-t border-gray-100">
   <div className="container mx-auto max-w-7xl relative z-10">
-    <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-16">
+    <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-8">
       
-      {/* Left Column: Branding, Incubation, and Address */}
-      <div className="space-y-10 max-w-md">
-        <div className="space-y-4">
-          <img src="/logo3.png" alt="IMLC" className="h-12 w-auto" />
+      {/* Left Column */}
+      <div className="space-y-6 max-w-md">
+        <div className="space-y-3">
+          <img src="/logo3.png" alt="IMLC" className="h-10 w-auto" />
           
-          {/* Body Text 1: Atkinson Hyperlegible (20px) */}
           <p 
             style={{ fontFamily: "'Atkinson Hyperlegible', sans-serif" }}
-            className="text-[#1f2a5a] text-[20px] font-bold italic flex items-center gap-2"
+            className="text-[#1f2a5a] text-[16px] font-semibold italic flex items-center gap-2"
           >
-            <span className="w-2 h-2 rounded-full bg-[#88cca4]"></span>
+            <span className="w-1.5 h-1.5 rounded-full bg-[#88cca4]"></span>
             We are a SINE IIT Bombay incubated startup
           </p>
         </div>
 
-        {/* Address Section */}
-        <div className="space-y-3">
-          {/* Caption: Atkinson Hyperlegible (10px) */}
+        <div className="space-y-2">
           <p 
             style={{ fontFamily: "'Atkinson Hyperlegible', sans-serif" }}
-            className="text-[#88cca4] font-bold text-[10px] uppercase tracking-[0.35em]"
+            className="text-[#88cca4] font-bold text-[9px] uppercase tracking-[0.3em]"
           >
             Address
           </p>
-          {/* Body Text 1: Atkinson Hyperlegible (20px) */}
+
           <p 
             style={{ fontFamily: "'Atkinson Hyperlegible', sans-serif" }}
-            className="text-[#1f2a5a]/70 text-[20px] leading-relaxed font-medium"
+            className="text-[#1f2a5a]/70 text-[16px] leading-relaxed font-medium"
           >
             SINE Office, 7th Floor, RBTIC Building, <br />
             IIT Bombay, Powai, Mumbai 400076.
           </p>
-          {/* Body Text 2: Atkinson Hyperlegible (18px) */}
+
           <p 
             style={{ fontFamily: "'Atkinson Hyperlegible', sans-serif" }}
-            className="text-[#1f2a5a]/40 text-[18px] pt-1"
+            className="text-[#1f2a5a]/40 text-[14px]"
           >
             CIN: U85213MH2025PTC460403
           </p>
         </div>
       </div>
 
-      {/* Right Column: Company Name and Horizontal Navigation */}
+      {/* Right Column */}
       <div className="flex flex-col md:items-end justify-end self-end w-full md:w-auto">
-        {/* Heading 3: Poppins Bold (20px) */}
         <h4 
           style={{ fontFamily: "'Poppins', sans-serif" }}
-          className="text-[#1f2a5a] font-bold text-[20px] mb-6 text-left md:text-right leading-tight"
+          className="text-[#1f2a5a] font-bold text-[18px] mb-4 text-left md:text-right leading-snug"
         >
           InclusiveMinds Learning Collective Private Limited
         </h4>
         
-        <div className="flex flex-col md:items-end space-y-6">
-          {/* Caption: Atkinson Hyperlegible (10px) */}
+        <div className="flex flex-col md:items-end space-y-4">
           <p 
             style={{ fontFamily: "'Atkinson Hyperlegible', sans-serif" }}
-            className="text-gray-400 text-[10px] font-bold uppercase tracking-[0.4em]"
+            className="text-gray-400 text-[9px] font-bold uppercase tracking-[0.35em]"
           >
             © 2026 All Rights Reserved
           </p>
           
-          {/* Legal Links: Atkinson Hyperlegible (18px) */}
-          <nav className="flex flex-row items-center space-x-8 md:space-x-12 pt-4 border-t border-gray-100 w-full md:w-auto justify-start md:justify-end">
+          <nav className="flex items-center space-x-6 pt-3 border-t border-gray-100 w-full md:w-auto justify-start md:justify-end">
             {['Privacy', 'Terms & Conditions'].map((item) => (
               <a 
                 key={item} 
                 href="#" 
                 style={{ fontFamily: "'Atkinson Hyperlegible', sans-serif" }}
-                className="text-[18px] text-gray-400 font-bold hover:text-[#1f2a5a] transition-colors whitespace-nowrap"
+                className="text-[16px] text-gray-400 font-semibold hover:text-[#1f2a5a] transition-colors whitespace-nowrap"
               >
                 {item}
               </a>
@@ -1002,6 +996,7 @@ const Home = () => {
     </div>
   </div>
 </footer>
+
     </div>
   );
 };
