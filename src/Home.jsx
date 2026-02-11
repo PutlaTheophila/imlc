@@ -284,7 +284,7 @@ const Home = () => {
 
     try {
       await fetch(
-        "https://script.google.com/macros/s/AKfycbwMyfnzC77LEkLjQda2f_Wweljy0EvZU9usp_gPbAk6vTxAnFf-yr_zw9qqwxJ_pXSC/exec",
+        "https://script.google.com/macros/s/AKfycbxx7IbFPDWRDC9v2hgXcSCtdKr-n7B2IA0zYjj14I969hv7Uc6dSElFYjJQP_7z6Mtu/exec",
         {
           method: "POST",
           body: formData
