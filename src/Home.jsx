@@ -337,7 +337,7 @@ const Home = () => {
       
       {/* Main Heading: Poppins Bold / Title Case (Change #2) */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-        <h1 className="font-['Poppins'] font-bold text-[72px] md:text-[45px] lg:text-[48px] leading-[1.24] mb-12 tracking-tight text-white">
+        <h1 className="font-['Poppins'] font-bold text-[48px] md:text-[45px] lg:text-[48px] leading-[1.24] mb-12 tracking-tight text-white">
           
           <motion.span 
             initial={{ x: -20, opacity: 0 }} 
@@ -430,7 +430,7 @@ const Home = () => {
       
       <p 
         style={{ fontFamily: "'Atkinson Hyperlegible', sans-serif" }}
-        className="text-gray-400 font-bold italic text-lg lg:max-w-xs border-l-4 border-[#88cca4] pl-6"
+        className="text-gray-400 font-bold text-lg lg:max-w-xs border-l-4 border-[#88cca4] pl-6"
       >
         After school programs, summer/winter break camps.
       </p>
@@ -634,8 +634,8 @@ const Home = () => {
       }}
     >
       {[
-        { name: 'Prof. Sridhar Iyer', title: 'Founder', img: "/Sridhar1.jpg", gradient: 'from-[#606eb4] to-[#1f2a5a]' },
-        { name: 'Dr. Revathi Iyer', title: 'Co-Founder', img: '/Revathi1.jpeg', gradient: 'from-[#6bafc0] to-[#88cca4]' },
+        { name: 'Prof. Sridhar Iyer', title: 'Co-Founder & Director', img: "/Sridhar1.jpg", gradient: 'from-[#606eb4] to-[#1f2a5a]' },
+        { name: 'Dr. Revathi Iyer', title: 'Co-Founder  & Director', img: '/Revathi1.jpeg', gradient: 'from-[#6bafc0] to-[#88cca4]' },
       ].map((member, i) => (
         <motion.div
           key={i}
