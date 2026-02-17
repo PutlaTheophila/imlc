@@ -337,7 +337,7 @@ const Home = () => {
       
       {/* Main Heading: Poppins Bold / Title Case (Change #2) */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-        <h1 className="font-['Poppins'] font-bold text-[48px] md:text-[45px] lg:text-[48px] leading-[1.24] mb-12 tracking-tight text-white">
+        <h1 className="font-['Poppins'] font-bold text-[32px] md:text-[45px] lg:text-[48px] leading-[1.24] mb-12 tracking-tight text-white">
           
           <motion.span 
             initial={{ x: -20, opacity: 0 }} 
